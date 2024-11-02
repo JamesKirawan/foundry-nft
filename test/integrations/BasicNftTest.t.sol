@@ -19,7 +19,7 @@ contract BasicNftTest is Test {
     }
 
     function testNameIsCorrect() public view {
-        string memory actualName = "BasicNft";
+        string memory actualName = "Dogie";
         string memory expectedName = basicNft.name();
 
         assert(
